@@ -1,0 +1,25 @@
+{
+    "require": {
+    	"php"							: ">=5.4"
+		,"javierTerry/MNTrait"			: "dev-master"
+		,"javierTerry/Teamwork"			: "dev-master"
+		,"myabakus/teamworkpm"			: "dev-master"
+		,"slim/pdo"						: "~1.7"
+		,"monolog/monolog"				: "1.16.*"
+    }
+    ,"repositories": [  
+		    {
+        		"type"      		: "git",
+        		"url" 				: "https://github.com/javierTerry/MNTrait.git"
+    		}
+    		,{
+        		"type"      		: "git",
+        		"url" 				: "https://github.com/loduis/TeamWorkPmPhpApi.git"
+    		}
+    		,{
+        		"type"      		: "git",
+        		"url" 				: "https://github.com/javierTerry/api-teamwork.git"
+    		}
+    		
+	]    
+}
